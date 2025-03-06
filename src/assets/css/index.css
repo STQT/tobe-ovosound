@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --black: #000;
+  --light: #e1e1e1;
+  --crimsonRed: #a1193c;
+}
+
+body{
+  background-color: var(--black);
+  color:  var(--light);
+}
+.container{
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hovercrimson:hover{
+  color: var(--crimsonRed);
+}

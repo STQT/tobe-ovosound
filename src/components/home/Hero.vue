@@ -70,7 +70,7 @@ import SnapchatIcon from '../icon/snapchat.vue';
 import { ref } from 'vue';
 
 const bars = reactive([
-  { label: 'ARTISTS', href: '/#homeartist-section' },
+  { label: 'ARTISTS', href: '/#artists' },
   { label: 'MUSIC', href: '/music' },
   { label: 'VIDEOS', href: '/videos' },
   { label: 'SHOP', href: '/shop' },

@@ -6,6 +6,16 @@
   --crimsonRed: #a1193c;
 }
 
+*{
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: var(--black);
   color:  var(--light);
@@ -16,6 +26,9 @@ body{
   padding: 0 20px;
 }
 
+.hovercrimson{
+  transition: color 0.2s ease;
+}
 .hovercrimson:hover{
   color: var(--crimsonRed);
 }

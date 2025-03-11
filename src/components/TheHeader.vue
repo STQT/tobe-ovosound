@@ -19,7 +19,9 @@
         </li>
       </ul>
       <div v-if="hasLogo" class="absolute top-10 left-2 z-0">
-        <img :src="logo" class="w-20 rotate-90" alt="logo">
+        <RouterLink to="/">
+          <img :src="logo" class="w-20 rotate-90" alt="logo">
+        </RouterLink>
       </div>
       <div v-if="hasMenu" @click="openMenu" id="bar" class="md:hidden absolute cursor-pointer top-3 right-3 z-10">
         <img :src="barsSvg" alt="bars">

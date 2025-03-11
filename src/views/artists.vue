@@ -43,7 +43,7 @@ import { useRoute } from "vue-router";
 import "swiper/css";
 import Playlists from "../components/artists/Playlists.vue";
 import Youtube from "../components/artists/Youtube.vue";
-import SFooter from "../components/artists/Footer.vue";
+import SFooter from "../components/TheFooter.vue";
 
 import artistsData from "../constants/artists"
 import Hero from "../components/artists/Hero.vue";

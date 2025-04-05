@@ -116,8 +116,8 @@ export default [
         other_image:
             null,
         youtube: {
-            link: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
-            image: "https://img.youtube.com/vi/qWsk-kp8g7E/maxresdefault.jpg",
+            link: "https://www.youtube.com/embed/_w2ZqoZTVJ8?si=MEUg_SXbrdEXSMu_",
+            image: "https://i.ytimg.com/vi_webp/_w2ZqoZTVJ8/maxresdefault.webp",
         },
         artist_images: [],
     },

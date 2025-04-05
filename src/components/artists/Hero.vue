@@ -1,8 +1,8 @@
 <template>
   <section id="hero" class="relative w-full min-h-screen">
     <TheHeader :has-socials="false"/>
-    <div class="h-screen w-full flex flex-col justify-center items-center">
-      <div class="min-w-md">
+    <div class="h-screen w-full flex flex-col items-center">
+      <div class="min-w-md pt-24">
         <h1 class="font-medium text-center text-3xl md:text-7xl pb-4">{{ artist.name }}</h1>
         <ul class="flex gap-5 items-center justify-center md:justify-end md:pr-10">
           <li v-for="social in artist.socials" :key="social.name" class="flex items-center gap-2">

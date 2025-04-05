@@ -1,5 +1,5 @@
 <template>
-<section id="playlist">
+<section id="playlist" v-if="playlistItems.length">
   <div class="relative pt-12 pb-24">
     <ul class="w-[90vw] md:w-[70vw] mx-auto grid md:grid-cols-2 gap-x-[20vw]">
       <li v-for="playlist in playlistItems" :key="playlist.name">
@@ -25,8 +25,8 @@ import { computed } from 'vue';
 const props = defineProps(['playlists'])
 
 
-const playlistItems = computed(() => props.playlists)
-const activePlaylist = ref(playlistItems.value[0])
+const playlistItems = computed(() => props.playlists as any[])
+const activePlaylist = ref(playlistItems.value?.[0])
 
 const setActivePlaylist = (playlist:any) => {
   activePlaylist.value = playlist

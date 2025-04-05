@@ -16,10 +16,10 @@
         <main class="artist">
           <Hero :artist="artist"/>
           <Playlists :playlists="artist.playlists"/>
-          <section class="max-w-[600px] w-[95wv] mx-auto">
+          <section v-if="artist.other_image" class="max-w-[600px] w-[95wv] mx-auto">
             <img :src="artist.other_image" alt="image">
           </section>
-          <Youtube :youtube="artist.youtube" />
+          <Youtube v-if="artist.youtube" :youtube="artist.youtube" />
           <SFooter />
         </main>
       </SwiperSlide>

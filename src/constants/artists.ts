@@ -1,5 +1,5 @@
-import InstagramIcon from "../components/icon/instagram.vue";
-import XIcon from "../components/icon/x.vue";
+// import InstagramIcon from "../components/icon/instagram.vue";
+// import XIcon from "../components/icon/x.vue";
 
 import TAHAUI_PHOTO from "../assets/images/IMG_1065.webp?url";
 import DAU from "../assets/images/IMG_2.webp?url";
@@ -23,12 +23,8 @@ export default [
         ],
         profile_image: "/artists/arshat_photo.WEBP",
         playlists: [],
-        other_image:
-            "https://cdn-p.smehost.net/sites/96c064c84a7a469c910b34452a5404a0/wp-content/uploads/2024/04/DVSN-FLYER4-sm.jpg",
-        youtube: {
-            link: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
-            image: "https://img.youtube.com/vi/qWsk-kp8g7E/maxresdefault.jpg",
-        },
+        other_image: null,
+        youtube: null as { link: string; image: string } | null,
         artist_images: [],
     },
     {
@@ -38,12 +34,8 @@ export default [
         socials: [],
         profile_image: TAHAUI_PHOTO,
         playlists: [],
-        other_image:
-            "https://cdn-p.smehost.net/sites/96c064c84a7a469c910b34452a5404a0/wp-content/uploads/2024/04/DVSN-FLYER4-sm.jpg",
-        youtube: {
-            link: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
-            image: "https://img.youtube.com/vi/qWsk-kp8g7E/maxresdefault.jpg",
-        },
+        other_image: null,
+        youtube: null,
         artist_images: [
             {
                 image: "https://cdn-p.smehost.net/sites/96c064c84a7a469c91…4a0/wp-content/uploads/2024/04/DVSN-FLYER4-sm.jpg",
@@ -71,9 +63,58 @@ export default [
         tag: "dau",
         socials: [],
         profile_image: DAU,
-        playlists: [],
+        playlists: [
+            {
+                name: "DAU — Pikir",
+                year: null,
+                image: "",
+                link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
+            },
+            {
+                name: "DAU — ULAID",
+                year: null,
+                image: "",
+                link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
+            },
+            {
+                name: "DAU & ARShAT — Meiram",
+                year: null,
+                image: "",
+                link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
+            },
+            {
+                name: "DAU & ARShAT — Shagala",
+                year: null,
+                image: "",
+                link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
+            },
+            {
+                name: "DAU & ARShAT — Qora",
+                year: null,
+                image: "",
+                link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
+            },
+            {
+                name: "DAU & Kuanyshbek Nurgazy — \nNe ushin",
+                year: null,
+                image: "",
+                link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
+            },
+            {
+                name: "DAU & iAQASTY — Esalań",
+                year: null,
+                image: "",
+                link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
+            },
+            {
+                name: "DAU & Kuanyshbek Nurgazy — ÓMIR",
+                year: null,
+                image: "",
+                link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
+            },
+        ],
         other_image:
-            "https://cdn-p.smehost.net/sites/96c064c84a7a469c910b34452a5404a0/wp-content/uploads/2024/04/majidjordangoodpeopletour2.jpg",
+            null,
         youtube: {
             link: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
             image: "https://img.youtube.com/vi/qWsk-kp8g7E/maxresdefault.jpg",

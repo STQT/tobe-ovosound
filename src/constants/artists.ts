@@ -22,7 +22,26 @@ export default [
             // },
         ],
         profile_image: "/artists/arshat_photo.WEBP",
-        playlists: [],
+        playlists: [
+            {
+                name: "ARShAT — TUNDE (album)",
+                year: null,
+                image: "",
+                link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
+            },
+            {
+                name: "ARShAT — QUMSAGAT (album)",
+                year: null,
+                image: "",
+                link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
+            },
+            {
+                name: "ARShAT — IZDE (album)",
+                year: null,
+                image: "",
+                link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
+            },
+        ],
         other_image: null,
         youtube: null as { link: string; image: string } | null,
         artist_images: [],
@@ -113,8 +132,7 @@ export default [
                 link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
             },
         ],
-        other_image:
-            null,
+        other_image: null,
         youtube: {
             link: "https://www.youtube.com/embed/_w2ZqoZTVJ8?si=MEUg_SXbrdEXSMu_",
             image: "https://i.ytimg.com/vi_webp/_w2ZqoZTVJ8/maxresdefault.webp",

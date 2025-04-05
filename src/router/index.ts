@@ -4,10 +4,12 @@ import MusicView from '../views/music.vue'
 import VideosView from '../views/videos.vue'
 import ShopView from '../views/shop.vue'
 import ArtistsView from "../views/artists.vue"
+import AboutUsView from '../views/AboutUsView.vue'
 
 
 const routes = [
   { path: '/', name: 'Home', component: HomeView },
+  { path: '/about', name: 'About', component: AboutUsView },
   { path: '/music', name: 'Music', component: MusicView },
   { path: '/videos', name: 'Videos', component: VideosView },
   { path: '/shop', name: 'Shop', component: ShopView },

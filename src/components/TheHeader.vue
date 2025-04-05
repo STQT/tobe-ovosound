@@ -36,7 +36,7 @@
                 </RouterLink>
             </div>
             <div
-                v-if="hasMenu"
+                v-if="hasMenu || hasntMenuButNeedMobileMenu"
                 @click="openMenu"
                 id="bar"
                 class="md:hidden absolute cursor-pointer top-3 right-3 z-10"
@@ -127,6 +127,9 @@ interface Props {
     hasSocials?: boolean;
     hasMenu?: boolean;
     hasLogo?: boolean;
+
+    // sorryy
+    hasntMenuButNeedMobileMenu?: boolean;
 }
 
 withDefaults(defineProps<Props>(), {
@@ -172,7 +175,7 @@ const socials = reactive([
         icon: YoutubeIcon,
         href: "https://www.youtube.com/channel/UCd192L6z8o7K9a93-35qO6w",
 
-        title: "@tobemde"
+        title: "@tobemde",
     },
     // {
     //     label: "Spotify",
@@ -184,7 +187,7 @@ const socials = reactive([
         icon: TiktokIcon,
         href: "https://www.youtube.com/channel/UCd192L6z8o7K9a93-35qO6w",
 
-        title: "@tobemde"
+        title: "@tobemde",
     },
     // {
     //     label: "Snapchat",

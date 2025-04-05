@@ -4,21 +4,21 @@ import XIcon from '../components/icon/x.vue'
 export default [
   {
     id: 0,
-    name: "PARTYNEXTDOOR",
-    tag: "partynextdoor",
+    name: "ARShAT",
+    tag: "arshat",
     socials: [
-      {
-        name: "instagram",
-        icon: InstagramIcon,
-        link: "https://www.instagram.com/PartyNextdoor",
-      },
-      {
-        name: "x",
-        icon: XIcon,
-        link: "https://www.twitter.com/PartyNextdoor",
-      },
+      // {
+      //   name: "instagram",
+      //   icon: InstagramIcon,
+      //   link: "https://www.instagram.com/PartyNextdoor",
+      // },
+      // {
+      //   name: "x",
+      //   icon: XIcon,
+      //   link: "https://www.twitter.com/PartyNextdoor",
+      // },
     ],
-    profile_image: "https://cdn-p.smehost.net/sites/96c064c84a7a469c910b34452a5404a0/wp-content/uploads/2024/04/pnd-web-1.jpg",
+    profile_image: '/artists/arshat_photo.WEBP',
     playlists: [
       {
         name: "WORKING ON MY KARMA (CHOPPED NOT SLOPPED)",
@@ -103,54 +103,6 @@ export default [
       {
         name: "WORKING ON MY KARMA (CHOPPED NOT SLOPPED)",
         year: 2015,
-        image: "https://cdn-p.smehost.net/sites/96c064c84a7a469c910b34452a5404a0/wp-content/uploads/2024/04/sept5th.jpg",
-        link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
-      },
-      {
-        name: "WORKING ON MY KARMA",
-        year: 2016,
-        image: "https://cdn-p.smehost.net/sites/96c064c84a7a469c910b34452a5404a0/wp-content/uploads/2024/04/sept5th.jpg",
-        link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
-      },
-      {
-        name: "IF I GET CAUGHT",
-        year: 2016,
-        image: "https://cdn-p.smehost.net/sites/96c064c84a7a469c910b34452a5404a0/wp-content/uploads/2024/04/sept5th.jpg",
-        link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
-      },
-      {
-        name: "WORKING ON MY KARMA (CHOPPED NOT SLOPPED)",
-        year: 2015,
-        image: "https://cdn-p.smehost.net/sites/96c064c84a7a469c910b34452a5404a0/wp-content/uploads/2024/04/sept5th.jpg",
-        link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
-      },
-      {
-        name: "WORKING ON MY KARMA",
-        year: 2016,
-        image: "https://cdn-p.smehost.net/sites/96c064c84a7a469c910b34452a5404a0/wp-content/uploads/2024/04/sept5th.jpg",
-        link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
-      },
-      {
-        name: "IF I GET CAUGHT",
-        year: 2016,
-        image: "https://cdn-p.smehost.net/sites/96c064c84a7a469c910b34452a5404a0/wp-content/uploads/2024/04/sept5th.jpg",
-        link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
-      },
-      {
-        name: "WORKING ON MY KARMA (CHOPPED NOT SLOPPED)",
-        year: 2015,
-        image: "https://cdn-p.smehost.net/sites/96c064c84a7a469c910b34452a5404a0/wp-content/uploads/2024/04/sept5th.jpg",
-        link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
-      },
-      {
-        name: "WORKING ON MY KARMA",
-        year: 2016,
-        image: "https://cdn-p.smehost.net/sites/96c064c84a7a469c910b34452a5404a0/wp-content/uploads/2024/04/sept5th.jpg",
-        link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
-      },
-      {
-        name: "IF I GET CAUGHT",
-        year: 2016,
         image: "https://cdn-p.smehost.net/sites/96c064c84a7a469c910b34452a5404a0/wp-content/uploads/2024/04/sept5th.jpg",
         link: "https://www.youtube.com/playlist?list=PLgL5E784247896B881",
       },

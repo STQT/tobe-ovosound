@@ -3,7 +3,7 @@
     <TheHeader :has-socials="false"/>
     <div class="h-screen w-full flex flex-col justify-center items-center">
       <div class="min-w-md">
-        <h1 class="font-medium text-center text-3xl md:text-7xl pb-4">{{ artist.name.toUpperCase() }}</h1>
+        <h1 class="font-medium text-center text-3xl md:text-7xl pb-4">{{ artist.name }}</h1>
         <ul class="flex gap-5 items-center justify-center md:justify-end md:pr-10">
           <li v-for="social in artist.socials" :key="social.name" class="flex items-center gap-2">
             <a :href="social.link">

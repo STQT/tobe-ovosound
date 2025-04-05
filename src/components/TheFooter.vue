@@ -2,7 +2,7 @@
 <footer class="container">
   <div class="flex justify-between items-center py-6 gap-5">
     <h2 class="text-base md:text-3xl uppercase">Tobemde</h2>
-    <div class="w-1/2 text-[1.15vw] text-center">
+    <div class="w-1/2 order-3 lg:order-none text-[1.15vw] text-center">
       <a class="hover:text-gray-400" href="https://www.sonymusic.com/feedback/">SEND US FEEDBACK</a> | 
       <a class="hover:text-gray-400" href="https://www.sonymusic.com/feedback/">PRIVACY POLICY</a> | 
       <a class="hover:text-gray-400" href="https://www.sonymusic.com/feedback/">HOW WE USE YOUR DATA</a> 

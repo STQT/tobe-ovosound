@@ -1,15 +1,19 @@
 <template>
   <section id="hero" class="pb-10">
     <TheHeader :has-logo="false"/>
-    <div class="container relative min-h-[60vh] md:min-h-screen flex justify-center items-center">
-      <div class="md:w-1/3 px-10 pt-20 md:p-0 flex justify-center items-center">
+    <div class="container relative min-h-[60vh] md:min-h-screen flex flex-col justify-center items-center">
+      <div class="w-2/3 md:w-1/5 px-10 pt-20 md:p-0 flex justify-center items-center">
         <img class="rotate-90" :src="mainLogo" alt="logo">
       </div>
     </div>
+
+    <h3 class="text-center md:text-2xl md:-translate-y-40">
+      TOBE <br> MUSICALYQ BIRLESTIGI
+    </h3>
     
-    <div class="flex justify-end pr-6 md:pr-32">
+    <!-- <div class="flex justify-end pt-10 pr-6 md:pr-32">
       <p class="w-2/5 text-[8px] md:text-xs md:w-60">OVO SOUND IS A RECORD LABEL FOUNDED BY AUBREY DRAKE GRAHAM AND LONG-TIME FRIENDS AND PARTNERS NOAH “40” SHEBIB AND OLIVER EL-KHATIB.</p>
-    </div>
+    </div> -->
   </section>
 </template>
 

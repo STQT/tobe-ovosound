@@ -43,6 +43,7 @@ import { useRoute } from "vue-router";
 import "swiper/css";
 import Playlists from "../components/artists/Playlists.vue";
 import Youtube from "../components/artists/Youtube.vue";
+import ArtistImages from "../components/artists/ArtistImages.vue"
 import SFooter from "../components/TheFooter.vue";
 
 import artistsData from "../constants/artists"
@@ -62,10 +63,10 @@ const setActiveSlide = (tag: string) => {
 };
 
 watch(
-  () => route.hash, 
-  (newTag) => {
-    if (ArtistSwiper.value) {
-      setActiveSlide(newTag);
+  () => [route.hash, ArtistSwiper.value], 
+  ([newTag, artistSwiper]) => {
+    if (artistSwiper) {
+      setActiveSlide(newTag as string);
     }
   },
   { immediate: true }

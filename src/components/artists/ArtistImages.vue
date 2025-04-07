@@ -19,9 +19,11 @@ import {ref, onMounted} from "vue"
 import { gsap } from 'gsap/all';
 import type { ArtistImage } from "../../types/artists"
 interface Props {
-  images?: ArtistImage[]
+  images?: ArtistImage[] | []
 }
-const props = withDefaults(defineProps<Props>(), {})
+const props = withDefaults(defineProps<Props>(), {
+  images: () => ([])
+})
 const imageRefs = ref<(HTMLElement | null)[]>([]);
 
 onMounted(() => {

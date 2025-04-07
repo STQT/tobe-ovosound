@@ -20,6 +20,7 @@
             <img :src="artist.other_image" alt="image">
           </section>
           <Youtube v-if="artist.youtube" :youtube="artist.youtube" />
+          <ArtistImages :images="artist.artist_images"/>
           <SFooter />
         </main>
       </SwiperSlide>
@@ -55,7 +56,7 @@ const modules = [Navigation];
 const ArtistSwiper: Ref<SwiperClass | null> = ref(null);
 const setActiveSlide = (tag: string) => {
   if (ArtistSwiper.value) {
-    const index = artistsData.findIndex((item) => item.tag === tag);
+    const index = artistsData.findIndex((item) => item.tag === tag.slice(1));
     if (index > -1) {
       ArtistSwiper.value.slideTo(index);
     }

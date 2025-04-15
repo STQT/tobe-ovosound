@@ -257,9 +257,9 @@ const pageData = reactive<PageData>({
                 <template v-if="pageData.main?.text">
                     <div>
                         <template
-                            v-for="(text, index) in pageData.main.text"
-                            :key="index"
-                        >
+                            v-for="(text) in pageData.main.text"
+                            :key="text"
+                            >
                             <p
                                 class="not-first:pt-6 first-letter:pl-12 text-justify text-lg lg:text-xl"
                             >
@@ -310,8 +310,8 @@ const pageData = reactive<PageData>({
                             <template v-if="artist?.text">
                                 <div>
                                     <template
-                                        v-for="(text, index) in artist.text"
-                                        :key="index"
+                                        v-for="(text ) in artist.text"
+                                        :key="text"
                                     >
                                         <p
                                             class="not-first:pt-6 first-letter:pl-12 text-justify text-lg lg:text-xl"

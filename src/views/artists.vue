@@ -49,9 +49,12 @@ import SFooter from "../components/TheFooter.vue";
 
 import artistsData from "../constants/artists"
 import Hero from "../components/artists/Hero.vue";
+import { useArtistsStore } from "../store/artists";
+import { onMounted } from "vue";
 
 const route = useRoute();
 const modules = [Navigation];
+const store = useArtistsStore()
 
 const ArtistSwiper: Ref<SwiperClass | null> = ref(null);
 const setActiveSlide = (tag: string) => {
@@ -81,4 +84,7 @@ watch(
 //     }
 //   }
 // )
+onMounted(()=>{
+  store.fetchArtists()
+})
 </script>
